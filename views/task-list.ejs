@@ -1,0 +1,11 @@
+<% include shared/header%>
+        <div class="row">
+            <div class="col col-lg-4 col-md-4">        
+                <ul class="list-group">
+                <% for(let i=0; i<tasks.length; i++) {%>
+                    <li class="list-group-item"><%=tasks[i]%></li>
+                <%}%>
+                </ul>
+            </div>    
+        </div>
+<% include shared/footer%>
